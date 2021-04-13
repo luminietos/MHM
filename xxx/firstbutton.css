@@ -1,0 +1,197 @@
+container-fluid {
+}
+
+body {
+background-color: #88aeb7;
+background-position: center;
+font-family: 'Trebuchet MS', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+header {
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* creates two columns/boxes that floats next to each other */
+img {
+float: left;
+width: 300px;
+width: 100%;
+height: auto;
+padding-top: 20px;
+display: block;
+}
+
+footer {
+padding-top: 30px;
+padding-bottom: 20px;
+}
+
+p {
+color: white;
+}
+
+h1 { 
+padding-bottom: 10px;
+padding-top: 10px;
+font-size: 40px;
+}
+
+h2{
+font-size: 25px;
+color: #e0e6cd;
+}
+
+h3 {
+font-size: 16px;
+color: white;
+float: left;
+padding-left: 20px;
+}
+
+h4
+{
+text-align: center;
+font-size: 30px;
+padding-bottom: 30px;
+padding-top: 35px;
+color: white;
+}
+
+h5 {
+padding-bottom: 10px;
+padding-top: 10px;
+font-size: 40px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  height: 300px;
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*makes the two columns/boxes stack on top of each other on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.btn-secondary {
+border-radius: 30px;
+}
+
+.btn-secondary:hover {
+    color: black !important;
+    background-color: #e0e6cd !important;
+    border-color: #e0e6cd !important; 
+    transition:.5s !important;
+}
+
+#yksi1 {
+border: 1px solid;
+padding: 10px;
+box-shadow: 5px 10px;
+padding-right: 5px;
+}
+
+#kaksi2 {
+text-align: center;
+font-size: 16px;
+}
+
+#kolme3 {
+background-image: url(vgogh4.jpeg);
+background-position: center;
+}
+
+#comic {
+text-align: center;
+display: block;
+}
+
+.row{
+text-align: center;
+display: block;
+}
+.embed {
+max-width: 100%;
+}
+
+div.gallery {
+border: 1px solid white;
+max-width: 100%;
+background-color: #e0e6cd;
+color: #4d748a;
+font-style: oblique;
+font-size: 15px;
+}
+
+div.gallery:hover {
+border: 1px solid #4d748a;
+}
+
+div.gallery img {
+width: 100%;
+height: auto;
+max-width: 100%;
+}
+
+div.desc {
+padding: 15px;
+text-align: center;
+}
+
+.responsive {
+padding: 0 6px;
+float: left;
+width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+a {
+margin: 5px;
+transition:.5s;
+}
+
+a:hover { 
+color: #e0e6cd; 
+}

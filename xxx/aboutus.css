@@ -1,0 +1,240 @@
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css");
+
+body {
+background-image: url(vgogh4.jpeg);
+background-position: center;
+font-family: 'Trebuchet MS', sans-serif;
+margin-left: 10px;
+margin-right: 10px;
+max-width: 100%;
+max-height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.col-centered {
+float: none;
+margin: 0 auto;
+    }
+
+#yksi1 {
+border: 2px solid;
+border-radius: 25px;
+margin-left: 10px;
+margin-right: 15px;
+padding: 10px;
+box-shadow: 5px 10px;
+padding-right: 5px;
+background-color: #78a5ab;
+}
+
+#form {
+color: white;
+margin: 0 auto;
+text-align: center;
+}
+
+#mrof {
+color: white;
+margin: 0 auto;
+text-align: center;
+display: block;
+border: 0;
+}
+
+#ifr {
+text-align: center;
+display: block;
+border: 0;
+}
+
+.table {
+color: white;
+background-color: red;
+border: 0;
+}
+
+td { 
+    padding: 10px;
+}
+
+#btn {
+border-radius: 30px;
+background-color: #78a5ab;
+border-color: #78a5ab;
+color: white;
+height: 45px;
+width: 110px;
+}
+
+#btn:hover {
+background-color: #e0e6cd;
+border-color: #e0e6cd;
+color: black;
+}
+
+header {
+padding: 30px;
+text-align: center;
+font-size: 35px;
+color: white;
+}
+
+article {
+float: right;
+  padding: 20px;
+  width: 70%;
+  height: 300px;
+}
+
+aside {
+display: block;
+width: 100%;
+position: right;
+text-align: left;
+float: right;
+}
+
+.xpz {
+float: right;
+position: auto;
+text-align: ;
+max-width: 100%;
+}
+
+.abt {
+display: block;
+text-align: center;
+margin: 15px;
+max-width: 100%;
+}
+
+img {
+display: block;
+width: 300px;
+height: auto;
+padding-top: 20px;
+max-width: 100%;
+}
+
+footer {
+padding-top: 30px;
+padding-bottom: 20px;
+}
+
+p {
+color: white;
+text-align: center;
+}
+
+h1 { 
+font-size: 40px;
+text-align:center;
+}
+
+h2{
+font-size: 25px;
+color: #e0e6cd;
+text-align: center;
+}
+
+h3 {
+font-size: 16px;
+color: white;
+float: left;
+padding-left: 20px;
+}
+
+h5 {
+font-size: 40px;
+padding-top: 10px;
+text-align: center;
+}
+
+h4
+{
+text-align: center;
+font-size: 30px;
+padding-bottom: 10px;
+padding-top: 35px;
+color: white;
+}
+
+h6 {
+text-align: center;
+padding: 10px;
+font-size: 15px;
+color: white;
+font-style: oblique;
+}
+
+caption {
+text-align: center;
+font-size: 30px;
+color: white;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  height: 300px; 
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+  img {
+    max-width: auto;
+  }
+}
+
+@media screen and (max-width: 600px) { /*from that form thingy, remember?*/
+  .col-25, .col-75, img {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+.btn-secondary {
+border-radius: 30px;
+}
+
+.btn-secondary:hover {
+color: black !important;
+background-color: #e0e6cd !important;
+border-color: #e0e6cd !important; 
+transition:.5s !important;
+}
+
+.yoyo {
+display: block;
+text-align: center;
+}
+
+
+a {
+clear: both; /*so that the float left and float right in the element above dont fuck with this one*/
+margin: 5px;
+transition:.5s; /*link color transition time*/
+color: white;
+}
+
+a:hover { 
+color: #e0e6cd; 
+}
