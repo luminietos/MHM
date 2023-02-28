@@ -1,7 +1,6 @@
 # "M.H.M" - a HTML/CSS native website
 This is a very basic website I created as my first HTML and CSS project for an intro to coding -course. 
 You can find the website and it's landing page [here](https://luminietos.github.io/index.html).
-<a href="https://luminietos.github.io/index.html" target="_blank">here</a>
 
 ## Description
 This is a very basic website made using HTMl5 and CSS3, created in the spring of 2021 during my first semester of Uni. 
